@@ -1,0 +1,42 @@
+html{
+  height:100%;
+}
+body{
+  transition: background 0.2s ease;
+  font-family: 'Noto Sans', sans-serif;
+  height:100%;
+  position:relative;
+}
+
+div#time{
+  color:#fff;
+  font-size:76px;
+  position:absolute;
+  left:27%;
+  right:27%;
+  top:30%;
+}
+
+div#time div.colon{
+  width:8%;
+}
+
+div#time div.minute,
+div#time div.second,
+div#time div.hour{
+  text-align:center;
+  width:28%;
+}
+
+div#time div{
+  float:left;
+}
+
+div#color{
+  color:#fff;
+  position:absolute;
+  left:40%;
+  right:40%;
+  top:60%;
+  text-align:center;
+}
